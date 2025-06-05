@@ -1,0 +1,60 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 2rem;
+  color: white;
+}
+
+.title span {
+  color: #007bff;
+}
+
+.status {
+  margin: 20px;
+  font-size: 1.5rem;
+  color: turquoise;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: #f0f0f0;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.box:hover {
+  background: #e0e0e0;
+}
+
+.reset {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.box img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
