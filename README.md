@@ -79,4 +79,4 @@ Edit
 
 4. **Save the file** (`Ctrl + S`)
 
-Now, your project has a professional `README.md` file ready for GitHub or sharing. Let me know if y
+Now, your project has a professional `README.md` file ready for GitHub or sharing. Let me know if you like this project.
